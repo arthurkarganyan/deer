@@ -7,7 +7,6 @@ module Deer
       if @path.size > 0
         @path = @path[1..-1]
         @path.gsub!(/\d+/, 'id')
-        @path.gsub!('stacks/id/flashcards', 'flashcards')
       end
     end
 
